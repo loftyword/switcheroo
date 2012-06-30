@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Switcheroo | A Simple CSS Switch </title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="description" content="Switcheroo | A simple CSS switch created by Lofty Word" />
+<meta name="robots" content="index, follow" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+<link rel="stylesheet" href="assets/css/core.css" media="screen" />
+
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript" src="assets/js/jquery.min-v1.7.1.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	// Switch toggle
+	$('.Switch').click(function() {
+		$(this).toggleClass('On').toggleClass('Off');
+	});
+	
+});
+</script>
+</head>
+
+<!--[if IE 7 ]><body class="IE7"><![endif]--> 
+<!--[if IE 8 ]><body class="IE8"><![endif]--> 
+<!--[if !IE]><!--><body><!--<![endif]-->s
+
+<div id="MainContainer">
+
+	<h1>Switcheroo</h1>
+	<p>Just a simple switch for you. Works in all modern browsers and even IE7 and above. I know right!?
+	Feel free to <a href="http://bit.ly/JJCsnI"><strong>download</strong></a>, edit, and do whatcha like.</p>
+	<hr />
+
+	<!-- Big Switch -->
+	<div class="Switch Off">
+		<div class="Toggle"></div>
+	<span class="On">ON</span>
+	<span class="Off">OFF</span>
+	</div>
+	<!-- // -->
+	
+	<div style="margin: 50px 0px;"></div>
+	
+	<!-- Round Switch -->
+	<div class="Switch Round Off">
+		<div class="Toggle"></div>
+	</div>
+	<!-- // -->
+	
+	<div style="margin: 40px 0px;"></div>
+	<hr />
+	
+	<p class="Small">Simple and Impactful Creative Solutions | <a href="http://www.loftyword.com" target="_blank">Lofty Word</a></p>
+	
+</div>
+
+
+
+</body>
+</html>
