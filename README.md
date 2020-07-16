@@ -5,3 +5,5 @@ Just a simple switch for you. Works in all modern browsers and even IE7 and abov
 Feel free to download, edit, and do whatcha like.
 
 View example at http://www.loftyword.com/switcheroo
+
+.
